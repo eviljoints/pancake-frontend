@@ -74,7 +74,7 @@ export const L2_CHAIN_IDS: ChainId[] = [
   ChainId.BASE_SEPOLIA,
 ]
 
-export const CHAINS = [
+export const CHAINS: [Chain, ...Chain[]] = [
   bsc,
   bscTestnet,
   mainnet,
