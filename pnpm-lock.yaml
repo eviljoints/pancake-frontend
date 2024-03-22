@@ -658,6 +658,9 @@ importers:
       '@binance/w3w-wagmi-connector':
         specifier: 1.1.4
         version: 1.1.4(encoding@0.1.13)(viem@2.8.13)(wagmi@2.5.11)
+      '@binance/w3w-wagmi-connector-v2':
+        specifier: ^1.1.4
+        version: 1.1.4(encoding@0.1.13)(viem@2.8.13)(wagmi@2.5.11)
       '@cyberlab/cyber-app-sdk':
         specifier: 2.4.4
         version: 2.4.4(@types/node@13.13.52)(@types/react@18.2.37)(encoding@0.1.13)(react-dom@18.2.0)(react-native@0.73.6)(react@18.2.0)(typescript@5.2.2)(zod@3.22.4)
@@ -3128,7 +3131,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.3
       '@babel/helper-environment-visitor': 7.22.20
-      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-plugin-utils': 7.24.0
       '@babel/helper-remap-async-to-generator': 7.22.20(@babel/core@7.23.3)
       '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.23.3)
 
@@ -3141,7 +3144,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.1
       '@babel/helper-environment-visitor': 7.22.20
-      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-plugin-utils': 7.24.0
       '@babel/helper-remap-async-to-generator': 7.22.20(@babel/core@7.24.1)
       '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.24.1)
 
@@ -3217,7 +3220,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.23.3
-      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-plugin-utils': 7.24.0
       '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.23.3)
 
   /@babel/plugin-proposal-numeric-separator@7.18.6(@babel/core@7.24.1):
@@ -3228,7 +3231,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.24.1
-      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-plugin-utils': 7.24.0
       '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.24.1)
 
   /@babel/plugin-proposal-object-rest-spread@7.20.7(@babel/core@7.23.3):
@@ -3267,7 +3270,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.23.3
-      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-plugin-utils': 7.24.0
       '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.23.3)
 
   /@babel/plugin-proposal-optional-catch-binding@7.18.6(@babel/core@7.24.1):
@@ -3278,7 +3281,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.24.1
-      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-plugin-utils': 7.24.0
       '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.24.1)
 
   /@babel/plugin-proposal-optional-chaining@7.21.0(@babel/core@7.23.3):
@@ -5326,6 +5329,24 @@ packages:
       eventemitter3: 5.0.1
       hash.js: 1.1.7
       js-base64: 3.7.5
+    dev: false
+
+  /@binance/w3w-wagmi-connector-v2@1.1.4(encoding@0.1.13)(viem@2.8.13)(wagmi@2.5.11):
+    resolution: {integrity: sha512-It9cpj3+uqSAdt7xz7RczqDk+d8EbRWOwXjqIpB3pzyn0GcmFVw7XRLAc4rdXLnvbUvVsSWksH57btIIwhFzEg==}
+    peerDependencies:
+      viem: 2.x
+      wagmi: 2.x
+    dependencies:
+      '@binance/w3w-ethereum-provider': 1.1.4(encoding@0.1.13)
+      '@binance/w3w-utils': 1.1.4
+      viem: 2.8.13(typescript@5.2.2)(zod@3.22.4)
+      wagmi: 2.5.11(@tanstack/react-query@5.28.4)(@types/react@18.2.37)(encoding@0.1.13)(react-dom@18.2.0)(react-native@0.73.6)(react@18.2.0)(typescript@5.2.2)(viem@2.8.13)(zod@3.22.4)
+    transitivePeerDependencies:
+      - bufferutil
+      - debug
+      - encoding
+      - ts-node
+      - utf-8-validate
     dev: false
 
   /@binance/w3w-wagmi-connector@1.1.4(encoding@0.1.13)(viem@2.8.13)(wagmi@2.5.11):
